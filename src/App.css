@@ -1,0 +1,44 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.title-bar {
+  background-color: #f4f4f4;
+  padding: 10px 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.tabs button.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.tab-content {
+  margin-top: 20px;
+}

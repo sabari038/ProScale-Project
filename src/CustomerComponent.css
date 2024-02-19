@@ -1,0 +1,50 @@
+.customer-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.qr-scanner-container {
+  margin-bottom: 20px;
+}
+
+.product-details {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.verify-button, .clear-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.verify-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.verify-button:hover {
+  background-color: #45a049;
+}
+
+.clear-button {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+.clear-button:hover {
+  background-color: #d32f2f;
+}
